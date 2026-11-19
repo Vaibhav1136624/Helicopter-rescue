@@ -1,0 +1,8 @@
+node_modules/
+dist/
+*.log
+.site-state/
+release/
+android/.gradle/
+android/local.properties
+android/**/build/

@@ -1,0 +1,20 @@
+/** Inferred, tunable gameplay defaults; none are claimed as reference-video measurements. */
+export const CONFIG = {
+    physicsHz: 60,
+    rescueTarget: 5,
+    maxPassengers: 3,
+    gravity: 165,
+    horizontalAcceleration: 105,
+    verticalAcceleration: 95,
+    maxHorizontalSpeed: 155,
+    maxVerticalSpeed: 125,
+    passengerMassRatio: 0.13,
+    ropeLength: 112,
+    ropeMinimum: 48,
+    ropeMaximum: 170,
+    ropeSegments: 18,
+    ropeIterations: 18,
+    pickupSpeed: 95,
+    deliverySpeed: 65,
+    particleLimit: 280,
+};

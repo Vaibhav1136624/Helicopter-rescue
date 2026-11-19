@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Rescue Drift</string>
+    <string name="title_activity_main">Rescue Drift</string>
+    <string name="package_name">com.rescuedrift.game</string>
+    <string name="custom_url_scheme">com.rescuedrift.game</string>
+</resources>

@@ -1,0 +1,11 @@
+{
+  "appId": "com.rescuedrift.game",
+  "productName": "Rescue Drift",
+  "directories": { "output": "release/windows" },
+  "files": ["dist/**/*", "electron/**/*", "package.json"],
+  "win": {
+    "target": [{ "target": "portable", "arch": ["x64"] }],
+    "signAndEditExecutable": false,
+    "artifactName": "Rescue-Drift-${version}-Windows-x64.${ext}"
+  }
+}

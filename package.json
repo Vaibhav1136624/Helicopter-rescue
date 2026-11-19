@@ -1,0 +1,30 @@
+{
+  "name": "rescue-drift",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc --noEmit && vite build",
+    "test": "tsx tests/physics.test.ts",
+    "preview": "vite preview --host 127.0.0.1",
+    "app:windows": "npm run build && electron-builder --win portable --config electron-builder.json",
+    "app:android": "npm run build && cap sync android",
+    "app:android:open": "cap open android",
+    "app:desktop": "npm run build && electron ."
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^8.6.2",
+    "electron": "^45.3.4",
+    "electron-builder": "^26.18.0",
+    "tsx": "^4.20.6",
+    "typescript": "~5.9.3",
+    "vite": "^7.1.12"
+  },
+  "dependencies": {
+    "@capacitor/android": "^8.6.2",
+    "@capacitor/core": "^8.6.2"
+  },
+  "main": "electron/main.cjs",
+  "description": "An offline helicopter rescue game with six missions"
+}
